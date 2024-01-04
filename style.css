@@ -74,14 +74,8 @@
   text-transform: uppercase;
 }
 
-/* New Task */
-#new-task {
-  display: inline-block;
-  width: 318px;
-}
-
 /* Task list */
-.task-section {
+.task-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -136,8 +130,14 @@
   transform: rotateZ(0);
 }
 
+/* New Task */
+.new-task {
+  display: inline-block;
+  width: 318px;
+}
+
 /* Completed */
-#completed-tasks .task {
+.completed-tasks .task {
   text-decoration: line-through;
   color: #888;
 }
