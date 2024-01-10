@@ -131,8 +131,11 @@
 
 /* Completed */
 .section__list_type_completed .task__text {
-  text-decoration: line-through;
   color: #888;
+}
+
+.section__list_type_completed .task__text_label {
+  text-decoration: line-through;
 }
 
 /* Edit Task */
